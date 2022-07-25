@@ -1,0 +1,60 @@
+/*CSS*/
+
+
+body{
+  width: 1200px;
+  font-family: sans-serif, Arial; <-- sans-serif default font-->
+  margin: 3px auto;
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.slogan, .navbar{
+  text-align: center;
+}
+
+.slogan{
+  margin: 30px auto;
+  color: lime;
+  font-size: 15px;
+}
+
+.navbar{
+  border: 15px solid lime;
+  background: lime;
+}
+
+h2, .status1 .status2 .status3{
+  display: inline-block;
+}
+
+#logo{
+  width: 300px;
+}
+
+#barra1, #barra2, #barra3{
+  height: 20px;
+  border-radius: 4px;
+}
+
+#barra1{
+  background: sandybrown;
+  margin-right: 60%;
+}
+
+#barra2{
+  background: lightgreen;
+  margin-right: 40%;
+}
+
+#barra3{
+  background: crimson;
+  margin-right: 85%;
+}
+
+#overlay{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  padding: 2% 15%;
+}
